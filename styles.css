@@ -1,0 +1,106 @@
+body {
+     background: url("https://cdn5.vectorstock.com/i/1000x1000/20/64/usa-patriotic-background-vector-5012064.jpg");
+}
+
+.title {
+    text-align: center;
+    background: linear-gradient(to right, #142778, #FFF, #a10000);
+    font-family: 'Carrois Gothic SC', sans-serif;
+
+}
+
+.jb, .dt {
+     width: 100px;
+     height: 100px;
+     margin: 30px;
+}
+
+.jb {
+     margin-left: 10px;
+}
+
+.dt {
+   margin-left: 60px;
+}
+
+.images {
+      margin-left: 460px;
+    
+}
+
+.candidates {
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+}
+
+.dp, .rp {
+    padding: 15px;  
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.dp {  
+    margin-left: 440px;
+    background-color: #4f6fff;
+}
+
+.dp:hover {
+    background-color: #3e58c9;
+}
+
+.rp {
+    margin-left: 50px;
+    background-color: #ff4f4f;
+}
+
+.rp:hover {
+    background-color: #d13b3b;
+}
+
+button {
+  font-size: 15px;
+  position: relative;
+  color: white;
+  width: 150px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.7s;
+}
+
+button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.result {
+       font-size: 30px;
+        text-align: center;
+}
+
+img {
+    height: 400px;
+    width: 350px;
+    margin-left: 440px;
+}
+
+.oneclick {
+    margin-left: 900px;
+
+}
